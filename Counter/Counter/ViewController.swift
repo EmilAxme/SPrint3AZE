@@ -13,13 +13,12 @@ final class ViewController: UIViewController {
     @IBOutlet private weak var minusButton: UIButton!
     @IBOutlet private weak var nullButton: UIButton!
     @IBOutlet private weak var historyText: UITextView!
-    
+     
     private var count = 0
     private var date = DateFormatter()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         date.dateStyle = .long
         date.timeStyle = .medium
     }
